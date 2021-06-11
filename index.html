@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>21</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="fundo">
+        <div class="painel"><img class="painelImagem" src="imagens/Painel Original 1.png"></div>
+        <div class="musicas">
+            <audio autoplay>
+            <source src="musica/musicaFundo.mp3">
+            </audio>
+        </div>
+        <div class="botao">
+            <div class="JOGAR">
+                <a class="botoes" href="file:///C:/Users/User/Documents/FACU/HTML/TrabalhoJogo/TwoOne.html">
+                    <p class="palavras">JOGAR</p>
+                </a>
+            </div>
+            <div class="INSTRUCOES">
+                <div onclick="intrucoes()">
+                    <p class="palavras">INSTRUÇÕES</p>
+
+                </div>
+                <div class="modalIntrucoes">
+                    <div onclick="fecharInstrucoes()"><img src="imagens/voltar.png" class="fechar"></div>
+                    <h1 class="titulo">INSTRUÇÕES</h1>
+                    <div class="Regras">
+                        <p class="subtitulos">OBJETIVO – Obter a soma 21 com as cartas da mesa na sua vez de jogar. </p>
+                        <p class="subtitulos">COMO JOGAR:</p>
+                        <p class="regras">● Você receberá três cartas. O restante das cartas permanece num monte no centro da mesa, com as faces voltadas para baixo.</p>
+                        <p class="regras">● O primeiro a jogar escolhe uma de suas cartas e a coloca no centro do jogo com seu número voltado para cima. Ele deve anunciar seu valor e em seguida pegar outra carta do monte. Os jogadores devem sempre ficar com três cartas
+                            na mão.
+                        </p>
+                        <p class="regras"> ● O próximo jogador coloca uma carta de sua mão sobre a carta colocada pelo jogador anterior e soma seus valores, anunciando o total em voz alta. Em seguida compra outra carta do monte. MAT-SN JOGO do 21 – Regras – 3º ano 2020</p>
+                        <p class="regras"> ● Todos os jogadores alternadamente, vão acrescentando uma carta sobre as cartas que estão na mesa e somando o resultado, até que a soma de 21 ou mais.</p>
+                        <p class="regras"> ● O jogador que conseguir colocar um carta e formar exatamente 21, ganha a rodada recebendo um ponto ou uma nova ficha.</p>
+                        <p class="regras"> ● O jogador que colocar uma carta e ultrapassar 21, perde uma de suas fichas ou ponto.</p>
+                        <p class="regras"> ● Começa então uma nova rodada. Dica: Fique atento na hora de escolher a carta que irá descartar para formar 21 pontos e não ultrapassar esse valor.</p>
+                        <p class="regras">BOM DIVERTIMENTO!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="TEMA">
+                <div onclick="tema()">
+                    <p class="palavras">TEMA</p>
+                </div>
+                <div class="modalTema">
+                    <div onclick="fechar()" class="divFechar"><img src="imagens/voltar.png" class="fechar"></div>
+                    <h1 class="titulo">TEMA</h1>
+                    <div class="jogoCassino">
+                        <p class="temaPalavra">CASSINO</p>
+                    </div>
+                    <div class="jogoAlternativo">
+                        <a href="file:///C:/Users/User/Documents/FACU/HTML/TrabalhoJogo/JogoAlternativo/index.html">
+                            <p class="temaPalavra">ALTERNATIVO</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="TwoOne.js"></script>
+
+
+</body>
+
+</html>
